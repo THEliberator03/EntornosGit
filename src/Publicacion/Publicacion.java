@@ -13,6 +13,7 @@ public class Publicacion {
     //Variables:
     protected String ISBN, nombre;
     protected int año;
+    protected String editorial = "";
     
     //Constructor:
     public Publicacion(String c, String n, int y){
